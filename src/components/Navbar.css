@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+  border: 2px solid black;
+}
+
+
+.navbar-logo {
+  justify-content: start;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Mel {
+  align-items: center;
+  font-family: 'Bungee Inline', sans-serif;
+  font-size: 36px;
+  color: #101088;
+}
