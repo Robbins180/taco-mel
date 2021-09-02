@@ -10,6 +10,7 @@ import './Navbar.css';
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    {/* Mobile Menu sizing less than 960px goes to a hamburger menu otherwise stays normal */}
     const showButton = () => {
       if (window.innerWidth <= 960) {
         setButton(false);
@@ -34,10 +35,11 @@ import './Navbar.css';
             </a>
             <h2 className='Mel'>Taco Mel</h2>
 
+            {/* This is for the Mobile Drop down Menu */}
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
-
+            {/* Drop Down ends */}
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
@@ -47,27 +49,27 @@ import './Navbar.css';
               </li>
               <li className='nav-item'>
                 <Link to='/Menu' className='nav-links'
-                onClick={closeMobileMenu}>
-                Menu
+                  onClick={closeMobileMenu}>
+                  Menu
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link to='/Nutrition' className='nav-links'
-                onClick={closeMobileMenu}>
-                Nutrition
+                  onClick={closeMobileMenu}>
+                  Nutrition
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link to='/About' className='nav-links'
-                onClick={closeMobileMenu}>
-                About Us
+                  onClick={closeMobileMenu}>
+                  About Us
                 </Link>
               </li>
             </ul>
           </div>
         </nav>
       </>
-    )
+    );
   }
 
 export default Navbar;
