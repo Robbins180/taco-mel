@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import LogIn from './LogIn';
+import LogOut from './LogOut';
+import { useAuth0 } from '@auth0/auth0-react';
 
 
   function Navbar() {
@@ -64,6 +68,10 @@ import './Navbar.css';
                   onClick={closeMobileMenu}>
                   About Us
                 </Link>
+              </li>
+              <li>
+                <LogIn className='nav-links' />
+                <LogOut className='nav-links' />
               </li>
             </ul>
           </div>

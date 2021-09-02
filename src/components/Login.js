@@ -1,34 +1,40 @@
-import React from 'react';
+import React from 'react'
+import './Navbar.css';
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
+import { useAuth0 } from '@auth0/auth0-react';
 
 
 const LogIn = () => {
 
-  const {loginWithRedirect, isAuthenticated } = useAuth0();
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
 
-    if (window.innerWidth <= 960)
+      if (window.innerWidth <= 960)
 
-    return (
+      return (
 
       !isAuthenticated && (
         <Link
-        to='/'
-        className='nav-links-mobile'
-        onClick={() => loginWithRedirect()}>
+          to='/sign-up'
+          className='nav-links-mobile'
+          onClick={() => loginWithRedirect()}>
+          Log In
         </Link>
+        )
       )
-    ) else
 
-    return (
-      !isAuthenticated && (
-        <button
-        className='nav-links'
-        buttonStlye='btn--outline'
-        onClick={() => loginWithRedirect()}
-        id='BtnLogin'>Log In
-        </button>
+      else
+      return (
+        !isAuthenticated && (
+          <Button
+            className='nav-links'
+            buttonStyle='btn--outline'
+            onClick={() => loginWithRedirect()}
+            id='BtnLogin'>Log In
+          </Button>
+        )
       )
-    )
-}
+  };
 
-export default LogIn;
+
+  export default LogIn;
