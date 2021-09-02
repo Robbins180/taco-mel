@@ -5,8 +5,25 @@ import './Navbar.css';
 
   function Navbar() {
     const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
+    const showButton = () => {
+      if (window.innerWidth <= 960) {
+        setButton(false);
+      } else {
+        setButton(true);
+      }
+    };
+
+    useEffect(() => {
+      showButton();
+    }, []);
+
+      window.addEventListener('resize', showButton);
+
     return (
       <>
         <nav className='navbar'>
@@ -23,13 +40,30 @@ import './Navbar.css';
 
 
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
-            </li>
-            <li className='nav-item'>
-
+              </li>
+              <li className='nav-item'>
+                <Link to='/Menu' className='nav-links'
+                onClick={closeMobileMenu}>
+                Menu
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/Nutrition' className='nav-links'
+                onClick={closeMobileMenu}>
+                Nutrition
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/About' className='nav-links'
+                onClick={closeMobileMenu}>
+                About Us
+                </Link>
+              </li>
+            </ul>
           </div>
         </nav>
       </>
