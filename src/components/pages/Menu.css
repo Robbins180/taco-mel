@@ -1,0 +1,63 @@
+
+
+:root {
+  --white: #fff;
+  --purple: #101088;
+  --hot-pink: #F6007B;
+  --gold: #FDED00;
+  --orange: #E68731;
+  --biege: #C1B69A;
+}
+
+.Menu {
+
+}
+
+.Menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#HotT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#pick-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Order-curve {
+  height: 69px;
+}
+
+.Menu-container {
+  overflow: hidden;
+  border: 4px solid black;
+  background-color: var(--purple);
+
+}
+
+.Menu-box {
+  box-sizing: border-box;
+  float: left;
+  height: 24vw;
+  margin: 1%;
+  width: 23%;
+  display: grid  ;
+  color: white;
+  background-color: var(--white);
+  border: 2px solid black;
+  margin: 5;
+  padding:20px;
+}
+
+.Item-box {
+
+}
