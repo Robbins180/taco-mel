@@ -8,6 +8,7 @@ import Menu from './components/pages/Menu';
 import About from './components/pages/About';
 import Nutrition from './components/pages/Nutrition';
 import Auth from './components/pages/Auth';
+import Legal from './components/pages/Legal-notices';
 
   function App() {
     return (
@@ -20,6 +21,7 @@ import Auth from './components/pages/Auth';
             <Route path='/About' exact component={About} />
             <Route path='/Nutrition' exact component={Nutrition} />
             <Route path='/sign-up' exact component={Auth} />
+            <Route path='/Legal-notices' exact component={Legal} />
           </Switch>
         </Router>
 

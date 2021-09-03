@@ -33,7 +33,7 @@
 
 .logo:hover {
   animation: shake 1s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
 }
   @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -154,7 +154,7 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-  
+
   .fa-bars {
     color: black;
     font-size: 2rem;
