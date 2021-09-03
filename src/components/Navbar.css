@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 
 .navbar {
-  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(0, 23, 23) 100%); */
+  /* /background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(0, 23, 23) 100%);  */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -13,23 +13,42 @@
   border: 2px solid black;
 }
 
-.navbar-container {
+ .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
   border: 2px solid black;
+  width: 100%;
 }
 
 
-.navbar-logo {
+.logo {
   justify-content: start;
   margin-left: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
 }
+
+.logo:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 
 .fa-unsplash {
   margin-left: 0.5rem;
@@ -41,11 +60,13 @@
   font-family: 'Bungee Inline', sans-serif;
   font-size: 36px;
   color: #101088;
+  padding: 10px;
+  margin: 10px;
 }
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -59,7 +80,7 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #101088;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -68,17 +89,35 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 5px solid #101088;
   transition: all 0.2s ease-out;
 }
 
-.btnLogin {
+#BtnLogin {
+  height: 40px;
   align-items: center;
   padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #101088;
+  padding: 8px 20px;
+  border: 1px solid #101088;
+  transition: all 0.3 ease-out;
+  grid-gap: 10px;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 8vw;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#BtnLogin:hover {
+  background-color: #101088;
+  color: #fff;
+  transition: all 0.9 ease-in-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: black;
 }
 
 .nav-links-mobile {
@@ -91,9 +130,17 @@
 
 /* Mobile Navbar Hamburger Menu */
 
-@media screen and (max-width: 960px) {
+ @media screen and (max-width: 960px) {
   .NavbarItems {
     position: relative;
+  }
+
+   .logo {
+    justify-content: start;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
   }
 
   .nav-menu {
@@ -107,7 +154,12 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-
+  
+  .fa-bars {
+    color: black;
+    font-size: 2rem;
+  }
+/*
   .nav-menu.active {
     background: #242222;
     left: 0;
@@ -124,7 +176,7 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
+    background-color: #101088;
     color: #242424;
     border-radius: 0;
   }
@@ -146,8 +198,10 @@
     cursor: pointer;
   }
 
+
+
   .fa-times {
-    color: #fff;
+    color: black;
     font-size: 2rem;
   }
 
@@ -160,15 +214,15 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: #fff;
+    color: black;
     padding: 14px 20px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
-    color: #242424;
+    background: #101088;
+    color: grey;
     transition: 250ms;
-  }
+  } */
 }

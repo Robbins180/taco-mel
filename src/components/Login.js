@@ -1,7 +1,6 @@
 import React from 'react'
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
 import { useAuth0 } from '@auth0/auth0-react';
 
 
@@ -26,12 +25,11 @@ const LogIn = () => {
       else
       return (
         !isAuthenticated && (
-          <Button
-            className='nav-links'
-            buttonStyle='btn--outline'
+          <button
+            
             onClick={() => loginWithRedirect()}
             id='BtnLogin'>Log In
-          </Button>
+          </button>
         )
       )
   };

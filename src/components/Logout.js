@@ -3,9 +3,9 @@ import React from 'react'
 import { useAuth0 } from '@auth0/auth0-react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
 
 const LogOut = () => {
+
   const { logout, isAuthenticated } = useAuth0();
 
   if (window.innerWidth <= 960)
@@ -24,12 +24,13 @@ const LogOut = () => {
 
     else
     return (
-    isAuthenticated && (
-    <Button
-    buttonStyle='btn--outline'
-    onClick={() => logout()}>
-      Log Out
-    </Button>
+      isAuthenticated && (
+        <button
+        
+          onClick={() => logout()}
+          id='BtnLogin'>
+            Log Out
+        </button>
     )
   )
 }

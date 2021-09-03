@@ -16,9 +16,9 @@ import Auth from './components/pages/Auth';
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='Menu' exact component={Menu} />
-            <Route path='About' exact component={About} />
-            <Route path='Nutrition' exact component={Nutrition} />
+            <Route path='/Menu' exact component={Menu} />
+            <Route path='/About' exact component={About} />
+            <Route path='/Nutrition' exact component={Nutrition} />
             <Route path='/sign-up' exact component={Auth} />
           </Switch>
         </Router>
