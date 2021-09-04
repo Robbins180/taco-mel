@@ -96,22 +96,36 @@
 }
 /* FONTS */
 
-.fa-star {
-  color: black;
-  height: 10px;
-  width: 10px;
+.fa-candy-corn, .fa-burrito, .fa-taco, .fa-random,.fa-search-dollar, .fa-sparkles, .fa-star, .fa-times-circle {
+  align-items: center;
+  justify-content: center;
+  color: var(--purple);
+  height: 100%;
+  width: 100%;
+  padding-top: 25%;
+  text-align: center;
 }
 
+
+
+
+/* Box containers */
+
 .item-box {
-  align-items: center;
   font-family: 'Bungee Inline', sans-serif;
   text-shadow: 1px 1px 2px #F6007B;
   font-size: 24px;
+  font-size-adjust: auto;
   color: #101088;
-  padding: 10px;
-  margin-top: 60%;
-  justify-content: center;
+  margin-top: 20%;
+  text-align: center;
   border: 2px black;
+}
+
+.item-box:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
 }
 
 p {

@@ -14,61 +14,61 @@ function Menu() {
         <h4 id='pick-up'>Pick Up In-Resturant or at the Drive-Thru</h4>
       </div>
 
-
       <div className='Menu-container'>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i className="far fa-star fa-3x"></i>
+          <a href='/About'
+            className='item-box'>
             MY FAVORITES
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="far fa-sparkles fa-3x"></i>
+          <a href='/' className='item-box' >
             NEW
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="fas fa-search-dollar fa-3x"></i>
+          <a href='/' className='item-box' >
             SEASONAL DEALS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="fas fa-random fa-3x"></i>
+          <a href='/' className='item-box' >
             COMBOS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="fas fa-taco fa-3x"></i>
+          <a href='/' className='item-box' >
             TACOS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="far fa-burrito fa-3x"></i>
+          <a href='/' className='item-box' >
             BURRITOS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="fas fa-candy-corn fa-3x"></i>
+          <a href='/' className='item-box' >
             NACHOS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
-          <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <i class="fal fa-times-circle fa-3x"></i>
+          <a href='/' className='item-box' >
             QUESADILLAS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             SPECIALTIES
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
@@ -84,33 +84,33 @@ function Menu() {
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             GROUPS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             VALUE MENU
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             VEGGIE
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             BOWLS
-          </Link>
+          </a>
         </div>
         <div className='Menu-box'>
           <i className="far fa-star"></i>
-          <Link to='/' className='item-box' >
+          <a href='/' className='item-box' >
             BREAKFAST
-          </Link>
+          </a>
         </div>
       </div>
       <br />
