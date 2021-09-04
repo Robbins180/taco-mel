@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+:root {
+  /*  Main TB Logo Colors */
+  --white: #fff;
+  --purple: #101088;
+  --hot-pink: #F6007B;
+  --gold: #FDED00;
+  --orange: #E68731;
+  --biege: #C1B69A;
+  --interior-magenta:# ;
+  --interior-pale-pink: #EBA9C4 ;
+  --interior-fire-pink: #842C2E ;
+  --interior-neon-blue: #54D9CD;
+  --interior-cream: #EAE5D7;
+  --interior-salmon: #FAAC7E;
+  --interior-90s-purple: #8D5FC5;
+}
+
+.Menu {
+
+}
+
+.Menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bungee Inline', sans-serif;
+  background-color: var(--interior-pale-pink);
+  color: var(--interior-neon-blue);
+  text-shadow: -4px 4px 3px var(--purple);
+  box-shadow: 5px 10px;;
+  font-size: 40px;
+  border: 4px solid black;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px;
+  letter-spacing: 0.2rem;
+}
+
+#HotT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--interior-90s-purple);
+  color: var(--interior-cream);
+  text-shadow: -3px 3px 2px var(--purple);
+  border-radius: 25px 25px 0px 0px;
+  padding: 0;
+  margin: 0;
+
+}
+
+#pick-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--interior-90s-purple);
+  color: var(--interior-cream);
+  text-shadow: -3px 3px 2px var(--purple);
+  padding: 5;
+  margin: 13px;
+
+}
+
+.Order-curve {
+  height: 69px;
+  background-color: var(--interior-90s-purple);
+  border-radius: 25px 25px 0px 0px;
+  border: 4px solid black;
+  font-family: 'Bungee Inline', sans-serif;
+  margin: 20px 20px 0px 20px;
+}
+
+.Menu-container {
+  overflow: hidden;
+  border: 4px solid black;
+  border-radius: 0px 0px 25px 25px;
+  background-color: var(--interior-neon-blue);
+  margin: 0px 20px 20px 20px;
+
+}
+
+.Menu-box {
+  box-sizing: border-box;
+  float: left;
+  height: 24vw;
+  margin: 1%;
+  width: 23%;
+  display: grid  ;
+  color: white;
+  background-color: var(--interior-pale-pink);
+  border: 2px solid black;
+  border-radius: 15px 15px 15px 15px;
+  margin: 5;
+  padding:20px;
+}
+/* FONTS */
+
+.fa-candy-corn, .fa-burrito, .fa-taco, .fa-random,.fa-search-dollar, .fa-sparkles, .fa-star, .fa-times-circle {
+  align-items: center;
+  justify-content: center;
+  color: var(--purple);
+  height: 100%;
+  width: 100%;
+  padding-top: 25%;
+  text-align: center;
+}
+
+
+
+
+/* Box containers */
+
+.item-box {
+  font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 1px 1px 2px #F6007B;
+  font-size: 24px;
+  font-size-adjust: auto;
+  color: #101088;
+  margin-top: 20%;
+  text-align: center;
+  border: 2px black;
+}
+
+.item-box:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+}
+
+p {
+  /* align-items: center;
+  font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 2px 2px 4px #F6007B;
+  font-size: 36px;
+  color: #101088;
+  padding: 10px;
+  margin: 10px;
+  border: 2px black; */
+}

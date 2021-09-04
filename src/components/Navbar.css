@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+.navbar {
+  /* /background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(0, 23, 23) 100%);  */
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border: 2px solid black;
+   overflow: hidden;
+}
+
+ .navbar-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  border: 2px solid black;
+  width: 100%;
+   overflow: hidden;
+}
+
+
+.logo {
+  justify-content: start;
+  margin-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover {
+  animation: shake 1s;
+  /* animation-iteration-count: infinite; */
+}
+  @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.fa-unsplash {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.Mel {
+  letter-spacing: 0.15rem;
+  align-items: center;
+  font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 2px 2px 8px #F6007B;
+  font-size: 36px;
+  color: #101088;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Mel:hover {
+  -webkit-animation: swing 1s ease;
+         animation: swing 1s ease;
+         -webkit-animation-iteration-count: 1;
+         animation-iteration-count: 1;
+
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 80px;
+}
+
+.nav-links {
+  font-family: 'Bungee Inline', sans-serif;
+  color: #101088;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-size: 22px;
+  text-shadow: 2px 2px 8px #F6007B;
+}
+
+.nav-links:hover {
+  border-bottom: 6px solid #101088;
+  transition: all 0.2s ease-out;
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+}
+
+#BtnLogin {
+  height: 40px;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--interior-cream);
+  color: #101088;
+  padding: 8px 20px;
+  border: 3px solid #101088;
+  border-radius: 20px;
+  transition: all 0.3 ease-out;
+  grid-gap: 10px;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  width: 8vw;
+  font-family: 'Bungee Inline', sans-serif;
+}
+
+#BtnLogin:hover {
+  background-color: #101088;
+  color: #fff;
+  transition: all 0.9 ease-in-out;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Mobile Navbar Hamburger Menu */
+
+ @media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+   .logo {
+    justify-content: start;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .fa-bars {
+    color: black;
+    font-size: 2rem;
+  }
+/*
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #101088;
+    color: #242424;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+
+
+  .fa-times {
+    color: black;
+    font-size: 2rem;
+  }
+
+    .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: black;
+    padding: 14px 20px;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #101088;
+    color: grey;
+    transition: 250ms;
+  } */
+}
