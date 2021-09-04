@@ -60,6 +60,7 @@
 .Mel {
   align-items: center;
   font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 2px 2px 4px #F6007B;
   font-size: 36px;
   color: #101088;
   padding: 10px;

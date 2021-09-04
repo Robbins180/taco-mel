@@ -1,12 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 
 :root {
+  /*  Main TB Logo Colors */
   --white: #fff;
   --purple: #101088;
   --hot-pink: #F6007B;
   --gold: #FDED00;
   --orange: #E68731;
   --biege: #C1B69A;
+  --interior-magenta:# ;
+  --interior-pale-pink: #EBA9C4 ;
+  --interior-fire-pink: #842C2E ;
+  --interior-neon-blue: #54D9CD;
+  --interior-cream: #EAE5D7;
+  --interior-salmon: #FAAC7E;
+  --interior-90s-purple: #8D5FC5;
 }
 
 .Menu {
@@ -17,12 +25,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Bungee Inline', sans-serif;
+  background-color: var(--interior-pale-pink);
+  color: var(--interior-neon-blue);
+  text-shadow: -4px 4px 3px var(--purple);
+  box-shadow: 5px 10px;;
+  font-size: 40px;
+  border: 4px solid black;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px;
+  letter-spacing: 0.2rem;
 }
 
 #HotT {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--interior-90s-purple);
+  color: var(--interior-cream);
+  text-shadow: -3px 3px 2px var(--purple);
+  border-radius: 25px 25px 0px 0px;
+  padding: 0;
+  margin: 0;
 
 }
 
@@ -30,17 +54,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--interior-90s-purple);
+  color: var(--interior-cream);
+  text-shadow: -3px 3px 2px var(--purple);
+  padding: 5;
+  margin: 13px;
 
 }
 
 .Order-curve {
   height: 69px;
+  background-color: var(--interior-90s-purple);
+  border-radius: 25px 25px 0px 0px;
+  border: 4px solid black;
+  font-family: 'Bungee Inline', sans-serif;
+  margin: 20px 20px 0px 20px;
 }
 
 .Menu-container {
   overflow: hidden;
   border: 4px solid black;
-  background-color: var(--purple);
+  border-radius: 0px 0px 25px 25px;
+  background-color: var(--interior-neon-blue);
+  margin: 0px 20px 20px 20px;
 
 }
 
@@ -52,12 +88,39 @@
   width: 23%;
   display: grid  ;
   color: white;
-  background-color: var(--white);
+  background-color: var(--interior-pale-pink);
   border: 2px solid black;
+  border-radius: 15px 15px 15px 15px;
   margin: 5;
   padding:20px;
 }
+/* FONTS */
 
-.Item-box {
+.fa-star {
+  color: black;
+  height: 10px;
+  width: 10px;
+}
 
+.item-box {
+  align-items: center;
+  font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 1px 1px 2px #F6007B;
+  font-size: 24px;
+  color: #101088;
+  padding: 10px;
+  margin-top: 60%;
+  justify-content: center;
+  border: 2px black;
+}
+
+p {
+  /* align-items: center;
+  font-family: 'Bungee Inline', sans-serif;
+  text-shadow: 2px 2px 4px #F6007B;
+  font-size: 36px;
+  color: #101088;
+  padding: 10px;
+  margin: 10px;
+  border: 2px black; */
 }

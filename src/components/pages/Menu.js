@@ -8,7 +8,7 @@ function Menu() {
   return (
 
     <div className='Menu'>
-      <h1 className='Menu-header'>TACO MEL MENU</h1>
+      <h1 className='Menu-header'>MENU</h1>
       <div className='Order-curve'>
         <h2 id='HotT'>Home of the Taco</h2>
         <h4 id='pick-up'>Pick Up In-Resturant or at the Drive-Thru</h4>
@@ -17,137 +17,100 @@ function Menu() {
 
       <div className='Menu-container'>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg
-                id=''
-                width='100'
-                height='100'>
-                <circle />
-              </svg>
-              <span>MY FAVORITES</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            MY FAVORITES
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>NEW</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            NEW
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>SEASONAL DEALS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            SEASONAL DEALS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>COMBOS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            COMBOS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>TACOS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            TACOS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>BURRITOS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            BURRITOS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>NACHOS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            NACHOS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>QUESADILLAS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            QUESADILLAS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>SPECIALTIES</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            SPECIALTIES
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>SIDES & SWEETS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            SIDES & SWEETS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>DRINKS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            DRINKS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>GROUPS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            GROUPS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>VALUE MENU</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            VALUE MENU
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>VEGGIE CRAVINGS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            VEGGIE
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>BOWLS</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            BOWLS
+          </Link>
         </div>
         <div className='Menu-box'>
-          <a href='#'
-              to=''
-              className='item-box'>
-              <svg id=''></svg>
-              <span>BREAKFAST</span>
-          </a>
+          <i className="far fa-star"></i>
+          <Link to='/' className='item-box' >
+            BREAKFAST
+          </Link>
         </div>
       </div>
       <br />
