@@ -2,27 +2,26 @@ import React, { useState } from 'react';
 import '../App.css';
 import './Hero.css';
 import { SliderData } from './SliderData';
+import { BiChevronLeft , BiChevronRight } from 'react-icons/bi';
 
 
 
 
 const Hero = () => {
 const [current, setCurrent] = useState(0);
+const length = slides.length
+
+
 
   return (
     <div className='hero-container'>
 
-
+      
         {SliderData.map((slide, index) => {
           return (
             <img src={slide.image} className='hero-img' alt='nothing' />
           )
         })};
-
-
-      {/*
-        <img className='hero-img' src='/images/TB-cups.jpeg' autoPlay loop muted />
-      */}
 
       <h1>¡Yo quiero Taco Bell!</h1>
       <p>Now Serving the Mexican Pizza</p>
