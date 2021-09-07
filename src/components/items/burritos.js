@@ -18,7 +18,7 @@ function burritos() {
 
           <div className='img-box'>
               <i className='icons' />
-              <img className='product-img' />
+              <img src="/images/Bean-burrito.jpeg" className='product-img' alt="product-img" />
           </div>
 
           <div className='product-details'>
@@ -45,7 +45,7 @@ function burritos() {
               id='beefy-5-layer-burrito'>
           <div className='img-box'>
               <i className='icons' />
-              <img className='product-img' />
+              <img src="/images/Bean-burrito.jpeg" className='product-img' alt="product-img" width="50" height="50" />
           </div>
           <div className='product-details'>
               <p className='item-name'>Beefy 5-Layer Burrito</p>
@@ -66,18 +66,18 @@ function burritos() {
             </button>
           </div>
         </div>
-        {/* Beefy 5-Layer Burrito */}
+        {/* Quesarito*/}
         <div className='product-card'
-              id='beefy-5-layer-burrito'>
+              id='quesarito'>
           <div className='img-box'>
               <i className='icons' />
-              <img className='product-img' />
+              <img src="/images/Bean-burrito.jpeg" className='product-img' alt="product-img" width="50" height="50" />
           </div>
           <div className='product-details'>
-              <p className='item-name'>Beefy 5-Layer Burrito</p>
+              <p className='item-name'>Quesarito</p>
               <i className='dollar-symbol' />
-              <p className='price'>1.79</p>
-              <p className='calories'>490 Cal</p>
+              <p className='price'>2.19</p>
+              <p className='calories'>650 Cal</p>
               <img className='warning' />
           </div>
 
@@ -92,18 +92,18 @@ function burritos() {
             </button>
           </div>
         </div>
-          {/* Beefy 5-Layer Burrito */}
+          {/* Burrito Supreme */}
         <div className='product-card'
-              id='beefy-5-layer-burrito'>
+              id='burrito-Supreme'>
           <div className='img-box'>
               <i className='icons' />
-              <img className='product-img' />
+              <img src="/images/Bean-burrito.jpeg" className='product-img' alt="product-img" width="50" height="50" />
           </div>
           <div className='product-details'>
-              <p className='item-name'>Beefy 5-Layer Burrito</p>
+              <p className='item-name'>Burrito Supreme</p>
               <i className='dollar-symbol' />
-              <p className='price'>1.79</p>
-              <p className='calories'>490 Cal</p>
+              <p className='price'>2.49</p>
+              <p className='calories'>390 Cal</p>
               <img className='warning' />
           </div>
 
@@ -118,15 +118,15 @@ function burritos() {
             </button>
           </div>
         </div>
-          {/* Beefy 5-Layer Burrito */}
+          {/* Crunchwrap Supreme */}
         <div className='product-card'
-              id='beefy-5-layer-burrito'>
+              id='crunchwrap-Supreme'>
           <div className='img-box'>
               <i className='icons' />
-              <img className='product-img' />
+              <img src="/images/Bean-burrito.jpeg" className='product-img' alt="product-img" width="50" height="50" />
           </div>
           <div className='product-details'>
-              <p className='item-name'>Beefy 5-Layer Burrito</p>
+              <p className='item-name'>Crunchwrap Supreme</p>
               <i className='dollar-symbol' />
               <p className='price'>1.79</p>
               <p className='calories'>490 Cal</p>
