@@ -11,6 +11,7 @@ import Nutrition from './components/pages/Nutrition';
 import Auth from './components/pages/Auth';
 import Legal from './components/pages/Legal-notices';
 
+
   function App() {
     return (
       <>

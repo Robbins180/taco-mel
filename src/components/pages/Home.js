@@ -1,11 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import Hero from '../Hero';
+import { SliderData } from '../SliderData';
 
 function Home() {
   return (
     <>
-      <Hero />
+      <Hero slides={SliderData} />;
+      <Hero />;
+
     </>
   );
 };
