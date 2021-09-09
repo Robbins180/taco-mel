@@ -48,7 +48,7 @@ function Menu() {
         </div>
         <div className='Menu-box'>
           <i class="far fa-burrito fa-3x"></i>
-          <a href='/' className='item-box' >
+          <a href='/Menu/burritos' className='item-box' >
             BURRITOS
           </a>
         </div>
