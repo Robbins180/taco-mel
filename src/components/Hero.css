@@ -10,7 +10,7 @@
 }
 
 .right-arrow {
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   right: 32px;
   font-size: 3rem;
@@ -21,7 +21,7 @@
 }
 
 .left-arrow {
-  position: absolute;
+  /* position: absolute; */
   top: 50%;
   right: 32px;
   font-size: 3rem;
