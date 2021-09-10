@@ -6,7 +6,7 @@ import { SliderData } from '../SliderData';
 function Home() {
   return (
     <>
-      <Hero slides={SliderData} />;
+      // <Hero slides={SliderData} />;
       <Hero />;
 
     </>
