@@ -15,6 +15,7 @@ function Footer() {
               <p>Careers</p>
               <p>Conact Us</p>
           </div>
+          <br />
           <div className='second-half-box'>
             <p>At participating locations. Prices and items may vary. Tax extra. 2,000 calories a day used for general nutrition advice, but calorie needs vary. Additional nutrition information available upon request.</p>
             <img src='#'></img>
