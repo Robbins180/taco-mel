@@ -1,6 +1,23 @@
+:root {
+    /*  Main TB Logo Colors */
+    --white: #fff;
+    --purple: #101088;
+    --hot-pink: #F6007B;
+    --gold: #FDED00;
+    --orange: #E68731;
+    --biege: #C1B69A;
+    --interior-magenta:# ;
+    --interior-pale-pink: #EBA9C4 ;
+    --interior-fire-pink: #842C2E ;
+    --interior-neon-blue: #54D9CD;
+    --interior-cream: #EAE5D7;
+    --interior-salmon: #FAAC7E;
+    --interior-90s-purple: #8D5FC5;
+  }
+
 
 .footer {
-    background-color: blanchedalmond;
+    background-color: var(--interior-cream);
 }
 .first-half-box {
     display: flex;
@@ -20,7 +37,7 @@
   padding: 2px;
   justify-content: center;
   padding: 0.5rem 1rem;
-  background-color: var(--interior-cream);
+  background-color: var(--interior-pale-pink);
   color: #101088;
   padding: 8px 20px;
   border: 3px solid #101088;

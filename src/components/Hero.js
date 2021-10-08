@@ -33,7 +33,7 @@ const Hero = () => {
   return (
       <div className='hero-container'>
 
-        <img src='./images/TB-interior.jpeg' className='hero-img' alt='nothing' />
+        <img src='./images/tacobell-seats.jpeg' className='hero-img' alt='nothing' />
         <h1>¡Yo quiero Taco Bell!</h1>
         <p>Now Serving the Mexican Pizza</p>
           <div className='hero-btns'>
