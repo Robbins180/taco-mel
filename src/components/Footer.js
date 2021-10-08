@@ -8,12 +8,12 @@ function Footer() {
       <div className='footer'>
         <div className='footer-container'>
           <div className='first-half-box'>
-              <p>Deals</p>
-              <p>About Us</p>
-              <p>Legal</p>
-              <p>FAQ</p>           
-              <p>Careers</p>
-              <p>Conact Us</p>
+              <button className='btn'>Deals</button>
+              <button className='btn'>About Us</button>
+              <button className='btn'>Legal</button>
+              <button className='btn'>FAQ</button>           
+              <button className='btn'>Careers</button>
+              <button className='btn'>Conact Us</button>
           </div>
           <br />
           <div className='second-half-box'>

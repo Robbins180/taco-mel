@@ -2,3 +2,43 @@
 .footer {
     background-color: blanchedalmond;
 }
+.first-half-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 40px;
+    width: 14vw;
+  
+  /* display: flex;
+  flex-direction: row; */
+  align-content: center;
+  margin: 2rem 10px;
+  padding: 2px;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--interior-cream);
+  color: #101088;
+  padding: 8px 20px;
+  border: 3px solid #101088;
+  border-radius: 20px;
+  transition: all 0.3 ease-out;
+  grid-gap: 10px;
+  font-family: 'Bungee Inline', sans-serif;
+}
+
+.btn:hover {
+    background-color: #101088;
+    color: #fff;
+    transition: all 0.9 ease-in-out;
+  }
+
+.second-half-box {
+    text-align: center;
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
