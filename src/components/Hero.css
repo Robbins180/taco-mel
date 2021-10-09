@@ -83,8 +83,19 @@
   margin-top: 32px;
 }
 
-.hero-btns .btn {
+.btns {
   margin: 6px;
+  padding: 2px;
+  height: 40px;
+  width: 14vw;
+  align-content: center;
+  border-radius: 20px;
+  transition: all 0.3 ease-out;
+  grid-gap: 10px;
+  font-family: 'Bungee Inline', sans-serif;
+  border: 3px solid #101088;
+  justify-content: center;
+  
 }
 
 .fa-play-circle {

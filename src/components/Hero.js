@@ -43,11 +43,13 @@ const Hero = () => {
             GET STARTED
               </button>
             </a>
-            <a href='#'>
+            <a href='/menu'>
               <button
                 className='btns'
-                onClick={console.log('hey')}>
-                BEGIN NOSTALGIA <i className='far fa-play-circle' />
+                type='button'
+                onClick={('Slide Show is still under Construction')}
+                >
+                BEGIN NOSTALGIA 
               </button>
             </a>
           </div>
