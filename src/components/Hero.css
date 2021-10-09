@@ -79,11 +79,8 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-btns {
-  margin-top: 32px;
-}
 
-.btns {
+.hero-btns  .btns {
   margin: 6px;
   padding: 2px;
   height: 40px;
@@ -95,6 +92,7 @@
   font-family: 'Bungee Inline', sans-serif;
   border: 3px solid #101088;
   justify-content: center;
+  align-items: center;
   
 }
 
