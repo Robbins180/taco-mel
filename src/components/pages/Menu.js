@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import './Menu.css';
 
 
+
 function Menu() {
   return (
-
+  <>
     <div className='Menu'>
       <h1 className='Menu-header'>MENU</h1>
       <div className='Order-curve'>
@@ -122,6 +123,9 @@ function Menu() {
       <br />
       <p>Prices and items may vary at participating locations and with substitutions. Tax extra.</p>
     </div>
+   
+  </>
+    
   );
 };
 
