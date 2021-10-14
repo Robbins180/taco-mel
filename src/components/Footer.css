@@ -59,3 +59,10 @@
     font-size: 12px;
     padding: 5px;
 }
+
+/* Links */ 
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

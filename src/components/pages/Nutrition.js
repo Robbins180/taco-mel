@@ -4,7 +4,7 @@ import './Nutrition.css';
 
 function Nutrition() {
   return (
-    <div>
+    <div className='nutrition'>
       <div className='nutrition-container'>
         <div className='top-img'></div>
         <div className='nutrition-body'>

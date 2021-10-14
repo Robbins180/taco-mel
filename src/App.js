@@ -28,8 +28,9 @@ import Footer from './components/Footer';
             <Route path='/Legal-notices' exact component={Legal} />
             
           </Switch>
+          <Footer />
         </Router>
-        <Footer />
+        
 
     </>
     );
