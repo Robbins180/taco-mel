@@ -9,11 +9,20 @@ function Footer() {
         <div className='footer-container'>
           <div className='first-half-box'>
               <button className='btn'>Deals</button>
-              <button className='btn'>About Us</button>
+
+              <button className='btn'>
+                <Link to='/About'
+                  className='link'>About Us
+                </Link>
+              </button>
+
               <button className='btn'>Legal</button>
               <button className='btn'>FAQ</button>           
               <button className='btn'>Careers</button>
-              <button className='btn'>Conact Us</button>
+              <button className='btn'>
+                <a href='https://github.com/Robbins180'
+                className='link'>Contact us</a>
+              </button>
           </div>
           <br />
           <div className='second-half-box'>

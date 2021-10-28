@@ -10,6 +10,7 @@ import About from './components/pages/About';
 import Nutrition from './components/pages/Nutrition';
 import Auth from './components/pages/Auth';
 import Legal from './components/pages/Legal-notices';
+import Footer from './components/Footer';
 
 
   function App() {
@@ -25,9 +26,11 @@ import Legal from './components/pages/Legal-notices';
             <Route path='/Nutrition' exact component={Nutrition} />
             <Route path='/sign-up' exact component={Auth} />
             <Route path='/Legal-notices' exact component={Legal} />
+            
           </Switch>
+          <Footer />
         </Router>
-
+        
 
     </>
     );

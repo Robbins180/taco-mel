@@ -11,7 +11,7 @@ function Home() {
      {/*  <Hero slides={SliderData} />; */} 
       <Hero />
       <Serving />
-      <Footer />
+
 
     </>
   )

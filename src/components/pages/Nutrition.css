@@ -1,0 +1,68 @@
+:root {
+    /*  Main TB Logo Colors */
+    --white: #fff;
+    --purple: #101088;
+    --hot-pink: #F6007B;
+    --gold: #FDED00;
+    --orange: #E68731;
+    --biege: #C1B69A;
+    --interior-magenta:# ;
+    --interior-pale-pink: #EBA9C4 ;
+    --interior-fire-pink: #842C2E ;
+    --interior-neon-blue: #54D9CD;
+    --interior-cream: #EAE5D7;
+    --interior-salmon: #FAAC7E;
+    --interior-90s-purple: #8D5FC5;
+  }
+
+  .nutrition {
+      border-bottom: 3px solid black;
+      padding-top: 80px;
+  }
+
+  .nutrition-container {
+    overflow: hidden;
+   margin: 21px 21px 21px 21px;
+   background-color: var(--interior-90s-purple);
+   border-radius: 25px 25px 25px 25px;
+   border: 4px solid black;
+  }
+
+  .nutrition-body {
+    overflow: hidden;
+    margin: 20px 20px 20px 20px;
+    padding: 15px;
+    border-radius: 25px 25px 25px 25px;
+    border: 4px solid var(--interior-neon-blue);
+    background-color: var(--interior-pale-pink);
+    color: var(--interior-cream);
+    /* text-shadow: -4px 4px 3px black; */
+    
+    letter-spacing: 0.2rem;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: normal;
+    
+  }
+
+  .nutrition-body > p {
+    color: black;
+      padding: 15px;
+      margin: 15px;
+      
+  }
+
+  .nutrition-body > ol {
+    color: black;
+      /* padding: 15px;
+      margin: 15px; */
+      
+  }
+
+  .nutrition-body > h2 {
+     text-shadow: -4px 4px 3px black; 
+      /* padding: 15px;
+      margin: 15px; */
+      
+  }

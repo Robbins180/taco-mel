@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css'
 import './Serving.css'
 
@@ -18,7 +19,12 @@ function Serving() {
                 <h6>Crisp pizza shells, refried beans, and a layer of seasoned beef all packed in a cruchy bite</h6>
            </div>    
             <div className='serving-btn'>
-                 <button className='btns'>Order Now</button>
+                 <button className='btns' >
+                 <Link to='/Menu'
+                 className='link'>
+                Order Now
+              </Link>
+                 </button>
             </div>
         </div>
     </div>
